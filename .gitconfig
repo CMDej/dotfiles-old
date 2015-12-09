@@ -1,0 +1,15 @@
+[user]
+	email = charles.dejardin@djit.fr
+	name = Charles-Marie Déjardin
+
+[alias]
+    co = checkout
+    ci = commit -m
+    st = status
+    ls = status
+    mg = merge --no-ff --no-edit
+    lg = log --oneline --graph --decorate
+    lga = log --oneline --graph --decorate --all
+    dc = diff --cached
+    rb = rebase --preserve-merges
+    rbi = rebase -i --preserve-merges
